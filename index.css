@@ -1,9 +1,30 @@
+.header{
+  
+        padding: 10px;
+        
+        background-color:black;
+}
+#para1 {
+           text-align: right;
+            color:white;
+            font-size:160%;
+            margin: 15px;
+            float:right;
+            background-color:black;
+  }
 body{
     background-color:#81d8d0;
 }
-h6{
+h5{
     color:rgb(32, 32, 199);
     margin: 65px;
+}
+img{
+    
+    padding-right:40px;
+    margin-left: auto;
+    
+    
 }
 h1{
     color:rgb(32, 32, 199) ;
@@ -16,4 +37,28 @@ p{
     font-size:160%;
     text-align:left;
     margin: 65px; 
+}
+button{
+    margin: 55px;
+    background-color:blue;
+    font-size:16px;
+    border-radius:27px;
+    padding:9x 20px;
+    cursor:grab;
+}
+.left, .right {
+  float: left;
+  width: 20%; 
+}
+
+.main {
+  float: left;
+  width: 60%; 
+}
+
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; 
+  }
 }
