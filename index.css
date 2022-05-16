@@ -1,0 +1,19 @@
+body{
+    background-color:#81d8d0;
+}
+h6{
+    color:rgb(32, 32, 199);
+    margin: 65px;
+}
+h1{
+    color:rgb(32, 32, 199) ;
+    font-size:300%;
+    text-align:left;
+    margin: 65px;
+}
+p{
+    color:rgb(31, 31, 207) ;
+    font-size:160%;
+    text-align:left;
+    margin: 65px; 
+}
